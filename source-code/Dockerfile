@@ -10,7 +10,7 @@ COPY . /app
 # Install Flask and other dependencies
 RUN pip3 install --no-cache-dir -r requirements.txt
 
-# Make port 5000 available 
+# Bind port 5000 
 EXPOSE 5000
 
 # Specify the command to run on container start
